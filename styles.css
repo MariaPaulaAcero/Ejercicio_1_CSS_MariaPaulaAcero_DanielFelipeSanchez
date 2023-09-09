@@ -1,29 +1,29 @@
 body {
-  background-color: #444444;
+  background-color: #e7e7e7;
 }
 
 header {
   width: 100%;
   height: 200px;
-  background-color: #202223;
+  background-color: #e6fde6;
   text-align: center;
   font-family: Verdana;
-  color: #ececf1;
+  color: #242424;
   font-size: 30px;
   font-style: italic;
   cursor: pointer;
   &:hover {
     /* Cambia color del texto al pasar el mouse */
-    color: #f5cf67;
+    color: #16612d;
   }
 }
 
 nav {
   width: 100%;
   height: 80px;
-  background-color: #343541;
+  background-color: #e6fde6;
   font-family: Georgia;
-  color: #ececf1;
+  color: #242424;
   font-size: 18px;
   font-weight: 800;
   cursor: pointer;
@@ -35,8 +35,8 @@ article {
   background-image: linear-gradient(
     180deg,
     #ccc,
-    #8e8ea0,
-    #8e8ea055
+    #e6fde6,
+    #85ff9155
   ); /* Color degradado */
   border-style: double;
   border-width: 1px;
@@ -57,26 +57,10 @@ aside {
 }
 
 li a{
-  color: white;
+  color: #242424;
 }
 
-.status {
-  margin: auto;
-  border: 1px solid #ccc;
-  opacity: 0.5;
-  background: linear-gradient(135deg, #8e8ea055 25%, transparent 25%) -19px 0/
-      38px 38px,
-    linear-gradient(45deg, #8e8ea0 25%, #40414f 25%) 0px 0/ 38px 38px;
-  display: flex;
-  justify-content: center;
-  align-items: left;
-  text-align: left;
-}
 
-.status:hover {
-  transform: scale(0.9);
-  box-shadow: 0 0 30px #19c37d;
-}
 
 .grupo_parrafo1 {
   font-family: sans-serif;
@@ -97,7 +81,7 @@ li a{
 footer {
   width: 100%;
   height: 200px;
-  background-image: linear-gradient(120deg, #40414f, #202123);
+  background-image: linear-gradient(120deg, #e6fde6, #acf7ac);
   padding: 5px;
   margin-top: 10px;
   font-family: Lucida Sans;
@@ -109,7 +93,7 @@ footer {
 
 .footer-text {
   font-size: 20px;
-  color: #ececd2;
+  color: #1a1a1a;
 }
 
 .footer-image {
